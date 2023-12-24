@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>WELCOME</h1>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="#">Application Form</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="Application">
+      <h1>Application Form</h1>
+      <form>
+        <p>Fill in Your details correctly</p>
+        &nbsp
+
+        <div class="input-field">
+          <label for="fn">First Name</label><br />
+          <input type="text" name="fn" id="firstn" />
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="ln">Last Name</label><br />
+          <input type="text" name="ln" id="lastn" />
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="email">Email Address</label><br />
+          <input type="email" name="email" id="email" />
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="course">Choose Course</label><br />
+          <select name="course" id="course">
+            <option value="select" disabled selected>Select</option>
+            <option value="Front-end">FrontEnd Engineering</option>
+            <option value="Back-end">BackEnd Engineering</option>
+          </select>
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="employment">Employment Status</label><br />
+          <select name="employment" id="employment">
+            <option value="select" disabled selected>Select</option>
+            <option value="Front-end">student</option>
+            <option value="Self-Employed">Self Employed</option>
+            <option value="Employed">Employed</option>
+          </select>
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="gender">Gender</label><br />
+          <select name="gender" id="gender">
+            <option value="select" disabled selected>Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="date">Date</label><br />
+          <input type="date" name="date" id="date" />
+        </div>
+        <br />
+        <div class="input-field">
+          <label for="message">Message</label>
+          <br />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="message"
+          ></textarea>
+        </div>
+
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
